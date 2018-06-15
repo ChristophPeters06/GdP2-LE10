@@ -3,7 +3,8 @@ package Application;
 import javafx.application.Application;
 import javafx.scene.Group;
 import javafx.scene.layout.Pane;
-import java.awt.*;
+import javafx.scene.shape.Rectangle;
+import javafx.scene.paint.Color;
 
 public class DrawingPane extends Group {
 
