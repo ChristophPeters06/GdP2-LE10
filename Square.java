@@ -1,7 +1,5 @@
 package Model;
 
-import java.awt.*;
-
 final class Square extends Rectangle {
     // Konstruktoren der Klasse Square
     public Square (double a, double x, double y) {

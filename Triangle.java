@@ -24,7 +24,7 @@ class Triangle extends Figure {
     public Shape getShape() {
         double a = getWidth() / 2;
         double b = getHeight() / 2;
-        Shape s = new javafx.scene.shape.TriangleMesh(getX() + a, getY() + b, a, b);
+        Shape s = new javafx.scene.shape.Polygon(getX() + a, getY() + b, a, b, a+b, a*b);
         setShapeColors(s);
         return s;
     }
